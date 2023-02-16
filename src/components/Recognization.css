@@ -1,0 +1,30 @@
+.recognization {
+    padding: 4rem;
+    background: #fff;
+
+  }
+
+  .process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .title {
+    margin-bottom: 0.7rem;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    text-align: center;
+  }
+
+  .pro {
+    width: 70%;
+    border-radius: 15px;
+  }
+
+  .comment {
+    padding: 1rem;
+    width: 65%;
+    text-align: justify;
+  }

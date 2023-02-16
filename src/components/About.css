@@ -1,0 +1,53 @@
+  .About {
+    padding: 4rem;
+    background: #fff;
+    
+  }
+
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+}
+.title {
+    margin-bottom: 0.6rem;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    font-weight: 1000;
+    text-align: center;
+    position: relative;
+}
+ 
+  .about-container {
+    margin: 0rem 5rem;
+  }
+
+  .detail {
+    width: 75%;
+    align-items: center;
+    justify-items: center;
+    border: solid 4px #242424;
+    border-radius: 15px;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+  .detail p {
+    padding: 1rem;
+  }
+  .radar {
+    position: absolute;
+    width: 100%;
+    opacity: 0.3;
+    left: -1%;
+    top: 90%;
+    
+  }

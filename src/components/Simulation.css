@@ -1,0 +1,77 @@
+.Simulation {
+    padding: 4rem;
+    background: #fff;
+
+  }
+
+  .sub-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+  }
+  .smalltitle {
+     margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 1000;
+  }
+  .photo-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: solid 4px rgb(57, 72, 137);
+    border-radius: 15px;
+    width: 80%;
+    
+  }
+
+  .photo i {
+    font-size: 3rem;
+    font-weight: 1000;
+    color: rgb(57, 72, 137);
+    transition: 0.3s;
+  }
+  .photo i:hover {
+    margin-left: 1rem;
+  }
+  .Scomment{
+    margin: 1rem 0;
+  }
+
+  .pro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+
+  .pro:hover {
+    scale: 1.2;
+  }
+
+  .photo1 {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .track {
+    display: flex;
+  }
+
+  .pro1 {
+    width: 60%;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    margin: 1rem 0;
+    border: dashed 4px rgb(57, 72, 137);
+  }
