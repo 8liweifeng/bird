@@ -14,19 +14,19 @@ function Simulation() {
                  we could simplify it and make a simpler model.</p>
                  <div className='photo-con'>
                     <div className='photo'>
-                        <img src='images/arm.JPG' className='pro'></img>
+                        <img src='images/arm.JPG' alt='' className='pro'></img>
                         <i class="fa-solid fa-circle-arrow-right"></i>
-                        <img src='images/sarm.JPG' className='pro'></img>
+                        <img src='images/sarm.JPG' alt='' className='pro'></img>
                     </div>
                  </div>
                  <p className='Scomment'>And according to theoretical formulas of the flight of bird, the model could be estimated.</p>
                  <div className='photo-con'>
                     <div className='photo1'>
                         <div className='track'>
-                            <img src='images/track1.png' className='pro'></img>
-                            <img src='images/track2.png' className='pro'></img>
+                            <img src='images/track1.png' alt='' className='pro'></img>
+                            <img src='images/track2.png' alt='' className='pro'></img>
                         </div>
-                        <img src='images/birdmodel.gif'></img>
+                        <img src='images/birdmodel.gif' alt=''></img>
                     </div>
                  </div>
             </div>
@@ -38,7 +38,7 @@ function Simulation() {
             </div>  
             <p className='Scomment'>According to the formulars below, the radar echo signal of birds could be simulated. </p>
             <div className='photo1'>
-            <img src='images/formular.JPG' className='pro1'></img>
+            <img src='images/formular.JPG' alt='' className='pro1'></img>
             </div>
             
             </div>

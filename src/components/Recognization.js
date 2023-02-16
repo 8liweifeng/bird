@@ -6,7 +6,7 @@ function Recognization() {
     <div className='recognization'>
         <div className='process'>
             <h2 className='title'>The Whole Work process</h2>
-            <img src='images/wholework.JPG' className='pro'></img>
+            <img src='./images/wholework.JPG' alt='' className='pro'></img>
             <p className='comment'>
                 We could roughly devide the whole work into two part: <strong>Signal Simulation</strong> part,
                 and <strong>Signal Processing</strong> part.
