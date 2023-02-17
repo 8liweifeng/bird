@@ -8,18 +8,16 @@ function Footer() {
     <div className='footer-container'>
         <section className='footer-subscription'>
             <p className='footer-subscription-heading'>
-                Welcome to join us, and know more
+                Welcome to contact me, and know more information
             </p>
-            <p className='footer-subscription-text'>
-                You can unsubscribe at any time
-            </p>
+            
 
             <div className='input-areas'>
                 <form action=''>
                     <input type="email" name="email" 
                     placeholder='Your email' 
                     className='footer-input' />
-                    <Button bottonStyle='btn--outline'>Subscribe</Button>
+                    <Button bottonStyle='btn--outline'>Send</Button>
                 </form>
 
             </div>
@@ -29,30 +27,18 @@ function Footer() {
         <div className='footer-links'>
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
-                    <h2>About Us</h2>
-                    <Link to='/sign-up'>How it works</Link>
-                    <Link to='/'>Testimonials</Link>
-                    <Link to='/'>Careers</Link>
-                    <Link to='/'>Investors</Link>
-                    <Link to='/'>Terms of Service</Link>
+                    <h2>About Me</h2>
+                    <Link to='/sign-up'>Email</Link>
+                    <Link to='/'>Address</Link>
+                    <Link to='/'>School</Link>
+                    <Link to='/'>Telephone</Link>
+                    <Link to='/'>Portfolio</Link>
                 </div>
-                <div className='footer-link-items'>
-                    <h2>Contact Us</h2>
-                    <Link to='/'>Contact</Link>
-                    <Link to='/'>Support</Link>
-                    <Link to='/'>Destinations</Link>
-                    <Link to='/'>Sponsorships</Link>
-                </div>
+                
             </div>
 
             <div className='footer-link-wrapper'>
-                <div className='footer-link-items'>
-                    <h2>Videos</h2>
-                    <Link to='/'>Submit Video</Link>
-                    <Link to='/'>Ambassadors</Link>
-                    <Link to='/'>Agency</Link>
-                    <Link to='/'>Influencer</Link>
-                </div>
+             
                 <div className='footer-link-items'>
                     <h2>Social Media</h2>
                     <Link to='/'>Instagram</Link>
@@ -67,10 +53,10 @@ function Footer() {
             <div className='social-media-wrap'>
                 <div className='footer-logo'>
                     <Link to="/" className='social-logo'>
-                        TRVL <i className='fab fa-typo3' />
+                    CAUC <i class="fa-solid fa-plane-up"></i>
                     </Link>
                 </div>
-                <small className='website-rights'>TRVL &copy; 2020</small>
+                <small className='website-rights'>Liwei &copy; 2023</small>
                 
                 
                 <div className='social-icons'>

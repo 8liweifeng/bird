@@ -8,7 +8,7 @@ function Process() {
             <h2 className='title'>Signal Processing</h2>
             <div className='feature'>
                 <div className='sub-title'>
-                    <i class="fa-solid fa-satellite-dish"></i>
+                <i class="fa-solid fa-wifi"></i>
                     <h3 className='smalltitle'>Micro-Doppler Feature Extraction</h3>
                 </div>
 
@@ -41,13 +41,11 @@ function Process() {
                     </div>
                 </div>
 
-                
-               
             </div>
 
             <div className='feature'>
                 <div className='sub-title'>
-                    <i class="fa-solid fa-satellite-dish"></i>
+                <i class="fa-solid fa-sun"></i>
                     <h3 className='smalltitle'>Micro-Doppler Feature Enhancement</h3>
                 </div>  
 

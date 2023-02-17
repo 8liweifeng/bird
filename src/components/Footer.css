@@ -19,19 +19,22 @@
   }
   
   .footer-subscription p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 6px 6px 7px rgb(9, 4, 4);
       
   }
   
   .footer-subscription-heading {
     margin-bottom: 24px;
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: 1000;
+    text-shadow: 6px 6px 7px rgb(9, 4, 4);
   }
   
   .footer-subscription-text {
     margin-bottom: 24px;
     font-size: 20px;
+    text-shadow: 6px 6px 7px rgb(9, 4, 4);
   }
   
   .footer-input {
@@ -43,6 +46,7 @@
     font-size: 18px;
     margin-bottom: 16px;
     border: 1px solid #fff;
+   
   }
   
   .footer-links {
@@ -62,6 +66,7 @@
     align-items: flex-start;
     margin: 16px;
     text-align: left;
+    
     width: 160px;
     box-sizing: border-box;
   }

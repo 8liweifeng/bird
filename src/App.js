@@ -3,9 +3,10 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Introduction from './components/pages/Introduction';
+// import Process from './components/pages/Process';
+// import Results from './components/pages/Results';
+// import Simulation from './components/Simulation';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -16,9 +17,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/services' exact component={Services} />
-          <Route path='/products' exact component={Products} />
-          <Route path='/sign-up' exact component={SignUp} />
+          <Route path='/About' exact component={Introduction} />
+          {/* <Route path='/Simulation' exact component={Simulation} />
+          <Route path='/Process' exact component={Process} />
+          <Route path='/Results' exact component={Results} /> */}
         </Switch>
       </Router>
     </>
