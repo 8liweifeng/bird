@@ -4,9 +4,9 @@ import '../../App.css';
 
 import About from '../About';
 import Recognization from '../Recognization';
-import Simulation from '../Simulation';
-import Process from '../Process';
-import Results from '../Results';
+// import Simulation from '../Simulation';
+// import Process from '../Process';
+// import Results from '../Results';
 
 function Introduction() {
   return (
@@ -14,9 +14,9 @@ function Introduction() {
       
             <About />
             <Recognization />
-            <Simulation />
+            {/* <Simulation />
             <Process />
-            <Results />
+            <Results /> */}
             
     </div>
   )
